@@ -75,7 +75,7 @@ export const remedios: Remedio[] = [
   
     // Anti-inflamatórios não esteroides (AINEs)
     { nome: "Ibuprofeno", explicacao: "Inibe COX, anti-inflamatório e analgésico." },
-    { nome: "Dipirona", explicacao: "Inibe prostaglandina, tromboxona e cox, não grávidas." },
+    { nome: "Dipirona", explicacao: "Inibe prostaglandina, tromboxano e cox, não grávidas; anti-pirético e analgésico." },
     { nome: "Diclofenaco", explicacao: "AINE potente para dor e inflamação." },
     { nome: "Nimesulida", explicacao: "AINE seletivo para COX-2." },
     { nome: "Cetoprofeno", explicacao: "AINE com boa ação analgésica." },

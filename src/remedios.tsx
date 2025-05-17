@@ -19,7 +19,7 @@ export const remedios: Remedio[] = [
     { nome: "Genfibrozila", explicacao: "Reduz triglicerídeos, ativa PPAR-alfa." },
   
     // Diabetes Mellitus
-    { nome: "Metformina", explicacao: "Reduz produção hepática de glicose." },
+    { nome: "Metformina", explicacao: "Reduz produção hepática de glicose, obesos." },
     { nome: "Gliclazida", explicacao: "Estimula liberação de insulina pelo pâncreas." },
     { nome: "Glimepirida", explicacao: "Sulfonilureia usada no DM2, ação prolongada." },
     { nome: "Empagliflozina", explicacao: "Promove excreção de glicose pela urina (SGLT2)." },

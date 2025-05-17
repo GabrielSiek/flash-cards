@@ -11,53 +11,74 @@ export const emptyRemedio: Remedio = {
 
 
 export const remedios: Remedio[] = [
-    { nome: "Paracetamol", explicacao: "Analgésico e antipirético. Usado para dor leve e febre." },
-    { nome: "Ibuprofeno", explicacao: "AINE. Alivia dor, febre e inflamação." },
-    { nome: "Dipirona", explicacao: "Analgésico e antipirético. Eficaz para febre alta." },
-    { nome: "Amoxicilina", explicacao: "Antibiótico betalactâmico. Combate infecções bacterianas." },
-    { nome: "Azitromicina", explicacao: "Antibiótico macrolídeo. Usado para infecções respiratórias." },
-    { nome: "Ceftriaxona", explicacao: "Cefalosporina de 3ª geração. Infecções graves." },
-    { nome: "Omeprazol", explicacao: "Inibidor da bomba de prótons. Reduz a acidez gástrica." },
-    { nome: "Ranitidina", explicacao: "Antagonista H2. Diminui secreção gástrica ácida." },
-    { nome: "Salbutamol", explicacao: "Broncodilatador beta-2. Alívio rápido em crises asmáticas." },
-    { nome: "Losartana", explicacao: "Antagonista da angiotensina II. Anti-hipertensivo." },
-    { nome: "Enalapril", explicacao: "IECA. Reduz pressão e protege o coração." },
-    { nome: "Hidroclorotiazida", explicacao: "Diurético tiazídico. Diminui a pressão arterial." },
-    { nome: "Furosemida", explicacao: "Diurético de alça. Usado em edema e insuficiência cardíaca." },
-    { nome: "Metformina", explicacao: "Biguanida. Controla glicemia no diabetes tipo 2." },
-    { nome: "Glibenclamida", explicacao: "Sulfonilureia. Estimula liberação de insulina." },
-    { nome: "Insulina", explicacao: "Hormônio hipoglicemiante. Essencial no diabetes tipo 1." },
-    { nome: "Prednisona", explicacao: "Corticoide. Anti-inflamatório e imunossupressor." },
-    { nome: "Dexametasona", explicacao: "Corticoide potente. Usado em inflamações e choque." },
-    { nome: "Diazepam", explicacao: "Benzodiazepínico. Sedativo, ansiolítico e anticonvulsivante." },
-    { nome: "Clonazepam", explicacao: "Benzodiazepínico. Usado em epilepsia e ansiedade." },
-    { nome: "Sertralina", explicacao: "ISRS. Antidepressivo e ansiolítico." },
-    { nome: "Fluoxetina", explicacao: "ISRS. Usado em depressão e TOC." },
-    { nome: "Haloperidol", explicacao: "Antipsicótico típico. Transtornos psicóticos e agitação." },
-    { nome: "Risperidona", explicacao: "Antipsicótico atípico. Esquizofrenia e bipolaridade." },
-    { nome: "Olanzapina", explicacao: "Antipsicótico atípico. Transtornos de humor." },
-    { nome: "Morfina", explicacao: "Opioide forte. Dor intensa e cuidados paliativos." },
-    { nome: "Tramadol", explicacao: "Opioide fraco. Dor moderada a intensa." },
-    { nome: "Codeína", explicacao: "Opioide leve. Analgésico e antitussígeno." },
-    { nome: "Lidocaína", explicacao: "Anestésico local. Também usado em arritmias." },
-    { nome: "Adrenalina", explicacao: "Aumenta FC e PA. Usada em parada cardíaca e anafilaxia." },
-    { nome: "Atropina", explicacao: "Anticolinérgico. Aumenta FC e reduz secreções." },
-    { nome: "Propranolol", explicacao: "Beta-bloqueador. Reduz PA, FC e ansiedade." },
-    { nome: "Metoprolol", explicacao: "Beta-1 seletivo. Anti-hipertensivo e antiarrítmico." },
-    { nome: "Verapamil", explicacao: "Bloqueador de canais de cálcio. Antiarrítmico e anti-hipertensivo." },
-    { nome: "AAS", explicacao: "Antiagregante plaquetário. Prevenção de eventos cardiovasculares." },
-    { nome: "Clopidogrel", explicacao: "Antiagregante. Inibe ativação plaquetária." },
-    { nome: "Heparina", explicacao: "Anticoagulante. Previne trombos em uso hospitalar." },
-    { nome: "Varfarina", explicacao: "Anticoagulante oral. Prevenção de AVC em FA." },
-    { nome: "Alprazolam", explicacao: "Ansiolítico. Benzodiazepínico de ação curta." },
-    { nome: "Carbamazepina", explicacao: "Anticonvulsivante. Usado em epilepsia e neuralgia." },
-    { nome: "Fenitoína", explicacao: "Anticonvulsivante. Controle de crises epilépticas." },
-    { nome: "Levotiroxina", explicacao: "Hormônio tireoidiano. Tratamento do hipotireoidismo." },
-    { nome: "Propiltiouracil", explicacao: "Antitireoidiano. Usado no hipertireoidismo." },
-    { nome: "Domperidona", explicacao: "Procinético. Alivia náuseas e melhora esvaziamento gástrico." },
-    { nome: "Metoclopramida", explicacao: "Antiemético e procinético. Náuseas e refluxo." },
-    { nome: "Ondansetrona", explicacao: "Antiemético potente. Náuseas induzidas por quimioterapia." },
-    { nome: "Nitroglicerina", explicacao: "Vasodilatador. Usado em angina." },
-    { nome: "Sildenafil", explicacao: "Vasodilatador. Disfunção erétil e hipertensão pulmonar." },
-    { nome: "Lorazepam", explicacao: "Benzodiazepínico. Ansiedade e insônia." }
-];
+    // Hipolipemiantes
+    { nome: "Sinvastatina", explicacao: "Reduz colesterol LDL, inibe HMG-CoA redutase." },
+    { nome: "Atorvastatina", explicacao: "Estatina potente para dislipidemias mistas." },
+    { nome: "Rosuvastatina", explicacao: "Estatina com alta potência e longa meia-vida." },
+    { nome: "Ezetimiba", explicacao: "Inibe absorção intestinal de colesterol." },
+    { nome: "Genfibrozila", explicacao: "Reduz triglicerídeos, ativa PPAR-alfa." },
+  
+    // Diabetes Mellitus
+    { nome: "Metformina", explicacao: "Reduz produção hepática de glicose." },
+    { nome: "Gliclazida", explicacao: "Estimula liberação de insulina pelo pâncreas." },
+    { nome: "Glimepirida", explicacao: "Sulfonilureia usada no DM2, ação prolongada." },
+    { nome: "Empagliflozina", explicacao: "Promove excreção de glicose pela urina (SGLT2)." },
+    { nome: "Metformina", explicacao: "Diminui a produção de glicose pelo fígado e melhora o uso pelos tecidos." },
+    { nome: "Insulina NPH", explicacao: "Insulina de ação intermediária." },
+    { nome: "Insulina glargina", explicacao: "Insulina basal de longa duração." },
+  
+    // Anticoncepcionais
+    { nome: "Pílulas combinadas", explicacao: "E+P Inibe pico de LH." },
+    { nome: "Mini pílulas", explicacao: "P Lactantes, CED, enxaqueca." },
+    { nome: "Pilula do dia seguinte", explicacao: "P pra carai, emergencial, até 72 horas." },
+  
+    // Anti-hipertensivos
+    { nome: "Captopril", explicacao: "Inibidor da ECA, reduz formação de angiotensina II." },
+    { nome: "Metildopa", explicacao: "Agonista alfa 2 central, grávidas." },
+    { nome: "Losartana", explicacao: "Bloqueia receptor AT1 da angiotensina II." },
+    { nome: "Anlodipino", explicacao: "Bloqueador de canal de cálcio, vasodilatador." },
+    { nome: "Hidroclorotiazida", explicacao: "Diurético tiazídico, reduz volemia." },
+    { nome: "Espironolactona", explicacao: "Antagonista da aldosterona, poupador de potássio." },
+    { nome: "Propranolol", explicacao: "Beta-bloqueador não seletivo, reduz FC e PA." },
+    { nome: "Dihidropiridínicos", explicacao: "Bloqueia canais de cálcio, vaso-seletivo." },
+    { nome: "Não Dihidropiridínicos", explicacao: "Bloqueia canais de cálcio, cardio-seletivo." },
+
+  
+    // Insuficiência cardíaca e angina
+    { nome: "Furosemida", explicacao: "Diurético de alça, reduz congestão em IC." },
+    { nome: "Carvedilol", explicacao: "Beta-bloqueador usado na IC." },
+    { nome: "Digoxina", explicacao: "Aumenta contratilidade cardíaca (inotrópico)." },
+    { nome: "Dinitrato de isossorbida", explicacao: "Vasodilatador para angina." },
+    { nome: "Mononitrato de isossorbida", explicacao: "Reduz pré e pós-carga no coração." },
+    { nome: "Ivabradina", explicacao: "Reduz FC sem afetar contratilidade." },
+  
+    // Antitireoidianos
+    { nome: "Propiltiouracil", explicacao: "Inibe síntese e conversão periférica do T4 em T3." },
+    { nome: "Metimazol", explicacao: "Inibe a organificação do iodo na tireoide." },
+    { nome: "Levotiroxina", explicacao: "Converte T4 sintético em T3." },
+    { nome: "Liotironina", explicacao: "Hormônio sintético T3, emergência." },
+
+  
+    // Antiaterotrombóticos
+    { nome: "AAS (ácido acetilsalicílico)", explicacao: "Inibe agregação plaquetária (COX-1)." },
+    { nome: "Clopidogrel", explicacao: "Inibe receptor ADP nas plaquetas." },
+    { nome: "Varfarina", explicacao: "Antagonista da vitamina K, anticoagulante oral." },
+    { nome: "Heparina", explicacao: "Ativa antitrombina III, anticoagulação rápida." },
+    { nome: "Enoxaparina", explicacao: "Heparina de baixo peso molecular, mais previsível." },
+  
+    // Opioides
+    { nome: "Morfina", explicacao: "Analgesia potente via receptores opioides." },
+    { nome: "Tramadol", explicacao: "Opioide fraco com ação serotoninérgica." },
+    { nome: "Fentanil", explicacao: "Opioide sintético potente, ação rápida." },
+    { nome: "Codeína", explicacao: "Opioide leve, usado para dor moderada e tosse." },
+    { nome: "Naloxona", explicacao: "Antagonista puro." },
+  
+    // Anti-inflamatórios não esteroides (AINEs)
+    { nome: "Ibuprofeno", explicacao: "Inibe COX, anti-inflamatório e analgésico." },
+    { nome: "Dipirona", explicacao: "Inibe prostaglandina, tromboxona e cox, não grávidas." },
+    { nome: "Diclofenaco", explicacao: "AINE potente para dor e inflamação." },
+    { nome: "Nimesulida", explicacao: "AINE seletivo para COX-2." },
+    { nome: "Cetoprofeno", explicacao: "AINE com boa ação analgésica." },
+    { nome: "Meloxicam", explicacao: "Preferencial por COX-2, menor risco gástrico." }
+  ];
+  

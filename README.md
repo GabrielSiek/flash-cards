@@ -12,7 +12,7 @@ This is a simple **Flash Cards** application built with **React + Vite**. It all
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- HTML / CSS / JavaScript
+- HTML / CSS / Typescript
 
 ## ✅ Prerequisites
 
@@ -33,3 +33,11 @@ npm install
 
 # 4. Start the development server
 npm run dev
+```
+
+- By default, the app will be running at http://localhost:5173.
+
+## ✏️ Editing the Flash Cards
+- The content of the flash cards can be easily customized.
+- Open the file: src/content.tsx
+- Inside this file, you’ll find an array named cards

@@ -1,45 +1,45 @@
 import { useEffect, useState } from 'react'
-import { remedios, emptyRemedio } from './remedios'
-import type { Remedio } from './remedios'
+import { cards, emptyCard } from './content'
+import type { Card } from './content'
 import './App.css'
 
 function App() {
-  const [remedio, setRemedio] = useState<Remedio>(emptyRemedio)
-  const [explicacao, setExplicacao] = useState<string>('')
-  const [textoBotao, setTextoBotao] = useState('Revelar')
+  const [content, setContent] = useState<Card>(emptyCard)
+  const [defition, setDefition] = useState<string>('')
+  const [textButton, setTextButton] = useState('Revelar')
 
-  const switchRemedio = () => {
-    const number = Math.floor(Math.random() * (remedios.length - 1))
-    setRemedio(remedios[number])
+  const switchContent = () => {
+    const number = Math.floor(Math.random() * (cards.length - 1))
+    setContent(cards[number])
 
-    setExplicacao('')
-    setTextoBotao('Revelar')
+    setDefition('')
+    setTextButton('Revelar')
   }
 
-  const showExplicacao = () => {
-    setExplicacao(remedio.explicacao)
-    setTextoBotao('Trocar remédio')
+  const showDefition = () => {
+    setDefition(content.definition)
+    setTextButton('Próximo')
   }
 
   const handleClick = () => {
-    if (textoBotao === 'Revelar')
-      showExplicacao()
+    if (textButton === 'Revelar')
+      showDefition()
     else
-      switchRemedio()
+      switchContent()
   }
 
   useEffect(() => {
-    switchRemedio()
+    switchContent()
   }, [])
 
   return (
     <div className='container'>
-      <div className='conteudo'>
-        <h1 className='remedio'>Remédio: {remedio.nome}</h1>
-        <div className='explicacao'> <strong>Explicação:</strong> {explicacao}</div>
+      <div className='card'>
+        <h1 className='content'>Remédio: {content.content}</h1>
+        <div className='definition'> <strong>Explicação:</strong> {defition}</div>
       </div>
-      <div className='botoes'>
-        <button className='botao' onClick={handleClick}>{textoBotao}</button>
+      <div className='buttons'>
+        <button className='button' onClick={handleClick}>{textButton}</button>
       </div>
     </div>
   )

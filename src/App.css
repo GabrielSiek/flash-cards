@@ -9,18 +9,6 @@
   align-items: center;
 }
 
-
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -34,32 +22,29 @@
   border-radius: 16px;
 }
 
-.conteudo {
+.card {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.explicacao {
+.definition {
   min-height: 70px;
+  color: #222020;
 }
 
-.remedio {
+.content {
   font-size: 18px;
   color: #222020;
 }
 
-.explicacao {
-  color: #222020;
-}
-
-.botoes {
+.buttons {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
 }
 
-.botao {
+.button {
   border: solid 2px;
   background-color: transparent;
   border-color: #006ce7;
@@ -76,7 +61,7 @@
 
 @media (max-width: 768px) {
   .container {
-    height: 200px; 
+    height: 200px;
     justify-content: space-between;
   }
 }

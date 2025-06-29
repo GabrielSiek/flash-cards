@@ -44,32 +44,33 @@ export const cards: Card[] = [
     { content: "Naloxona", definition: "Antagonista puro." },
     { content: "Metadona", definition: "MV longa; síndrome abstinência." },
 
-    // // Corticoides
-    // { content: "", definition: "Analgesia potente via receptores opioides." },
-    // { content: "", definition: "Opioide fraco com ação serotoninérgica." },
-    // { content: "", definition: "Opioide sintético potente, ação rápida." },
-    // { content: "", definition: "Opioide leve, usado para dor moderada e tosse." },
-    // { content: "", definition: "Antagonista puro." },
-    // { content: "", definition: "MV longa; síndrome abstinência." },
+    // Corticoides
+    { content: "Glicorticoides naturais", definition: "cortisol e hidrocortisona" },
+    { content: "Glicocorticoides sintéticos", definition: "prednisolona, betametasona, dexametasona, prednisona" },
+    { content: "Mineralocorticoides naturais", definition: "aldosterona" },
+    { content: "Mineralocorticoides sintéticos", definition: "fludrocortisona" },
+    { content: "MA e EA glicocorticoides", definition: "receptores INTRACELULARES; hiperglicemia (diabetes), dist musc, + infecções, Cushing, osteoporose" },
+    { content: "MA e EA mineralocorticoides", definition: "receptores CITOPLASMÁTICOS; ret hídrica, hipocalcemia, HA, dist musc" },
 
     // Antibióticos
     { content: "Penicilinas (G e V, amoxi, ampici, meti. oxaciclina)", definition: "inibem síntese parede celular" },
     { content: "Cefalosporinas (cefalozina, cefaclor, ceftriaxona, cefepima)", definition: "inibem síntese parede celular" },
     { content: "Carbapenêmicos (imipenem)", definition: "inibem síntese parede celular (USO HOSPITALAR)" },
     { content: "Monobactâmicos (aztreonam)", definition: "inibem síntese parede celular" },
-    { content: "Glicopeptídeos (vancomicina)", definition: "inibem síntese parede celular" },
+    { content: "Glicopeptídeos (vancomicina)", definition: "inibem síntese parede celular (HOMEM VERMELHO POR HISTAMINA)" },
     { content: "Inibidores B-lactamase (ácido clavulânico, sulbactam)", definition: "inibem enzima b-lactamase" },
     { content: "Lipopeptídeos (polimixina B)", definition: "rompe membrana celular (DETERGENTE; AUMENTA PERM)" },
-    { content: "Tetraciclinas (tetra, doxi, mino, tigeciclina)", definition: "ligam-se subunidade 30s ribossomo" },
+    { content: "Tetraciclinas (tetra, doxi, mino, tigeciclina)", definition: "ligam-se subunidade 30s ribossomo (N/V, FOTOSSENSIBILIDADE, ESOFAGITE" },
     { content: "Macrolídeos (eritro, azitro, claritro e roxitromicina)", definition: "ligam-se subunidade 50s" },
     { content: "Cloranfenicol", definition: "liga-se subunidade 50s (SÍNDROME BB CINZENTO)" },
-    { content: "Oxazolidinona (linezolida)", definition: "liga-se subunidade 50s (G+ MULTIRRESISTENTES)" },
+    { content: "Oxazolidinona (linezolida)", definition: "liga-se subunidade 50s (G+ MULTIRRESISTENTES, SUPRE MO, ESCURECE DENTES)" },
     { content: "Clindamicina", definition: "liga-se subunidade 50s (COLITE PSEUDOMEMBRANOSA)" },
-    { content: "Aminoglicosídeos (genta, amica, tobra, estrepto e nieomicina)", definition: "ligam-se subunidade 30s" },
-    { content: "Sulfonamidas (sulfa. prata, sulfadiazina, sulfometoxazol, sulfametoxipiridazina)", definition: "inibem produção ácido fólico (ANTA COMP PABA)" },
+    { content: "Aminoglicosídeos (genta, amica, tobramicina)", definition: "ligam-se subunidade 30s (OTO E NEFROTOXICIDADE)" },
+    { content: "Sulfonamidas (sulfa. prata, sulfadiazina, sulfometoxazol)", definition: "inibem produção ácido fólico (ANTA COMP PABA, OTO/NEFROTOX, STEVEN-JOHNSON)" },
     { content: "Bactrim", definition: "sulfametoxazol + trimetropina (x ácido fólico)" },
-    { content: "Quinolonas (nor, cipro, levo, moxi, oflo, lome, gemifloxacino)", definition: "inibem DNA girase -> topoisomerases II e IV (USAR EM ITU, 1h ANTES OU 2h DEPOIS DA COMIDA)" },
+    { content: "Quinolonas (nor, cipro, levo, moxi, oflo, lome, gemifloxacino)", definition: "inibem DNA girase -> topoisomerases II e IV (ITU, 1h ANTES OU 2h DEPOIS COMIDA, TENDINOPATIA, ALT HUMOR)" },
     { content: "Fosfomicina", definition: "Inibe MurA (sínt parede) -> SEGURA NA GESTAÇÃO" },
+    { content: "Rifamicinas (rifampcina)", definition: "inibe RNA polimerase (TGI, COR ALARANJADA)" },
 
     // Anti-histamínicos
     { content: "Anti-H1 clássicos (difenidramina, hidroxizina, meclizina, dimenidrato)", definition: "movimento, enjoo, vômito - causam sedação" },
@@ -83,12 +84,12 @@ export const cards: Card[] = [
     { content: "Anti-H2 (cime, famo, nizatidina)", definition: "bloqueiam H2; diminuem prod. ácido estomacal" },
     { content: "IBPs", definition: "ome, panto, lanso e dexlanzoprazol (DIMINUEM B12)" },
 
-    // // Antivirais 
-    // { content: "", definition: "Analgesia potente via receptores opioides." },
-    // { content: "", definition: "Opioide fraco com ação serotoninérgica." },
-    // { content: "", definition: "Opioide sintético potente, ação rápida." },
-    // { content: "", definition: "Opioide leve, usado para dor moderada e tosse." },
-    // { content: "", definition: "Antagonista puro." },
-    // { content: "", definition: "MV longa; síndrome abstinência." },
+    // Antivirais 
+    { content: "", definition: "Analgesia potente via receptores opioides." },
+    { content: "", definition: "Opioide fraco com ação serotoninérgica." },
+    { content: "", definition: "Opioide sintético potente, ação rápida." },
+    { content: "", definition: "Opioide leve, usado para dor moderada e tosse." },
+    { content: "", definition: "Antagonista puro." },
+    { content: "", definition: "MV longa; síndrome abstinência." },
 ];
 

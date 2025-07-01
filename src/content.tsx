@@ -84,12 +84,15 @@ export const cards: Card[] = [
     { content: "Anti-H2 (cime, famo, nizatidina)", definition: "bloqueiam H2; diminuem prod. ácido estomacal" },
     { content: "IBPs", definition: "ome, panto, lanso e dexlanzoprazol (DIMINUEM B12)" },
 
-    // Antivirais 
-    { content: "", definition: "Analgesia potente via receptores opioides." },
-    { content: "", definition: "Opioide fraco com ação serotoninérgica." },
-    { content: "", definition: "Opioide sintético potente, ação rápida." },
-    { content: "", definition: "Opioide leve, usado para dor moderada e tosse." },
-    { content: "", definition: "Antagonista puro." },
-    { content: "", definition: "MV longa; síndrome abstinência." },
+    // Antivirais (herpes) 
+    { content: "Aciclovir", definition: "compete pela DNA-polimerase viral com trifosfato de desoxiguanosina; quebra a cadeia" },
+    { content: "Foscarnete", definition: "inibe irreversivelmente a DNA e RNA-polimerase viral" },
+
+// Antifúngicos 
+    { content: "Anfotericina B", definition: "ação na membrana celular" },
+    { content: "Terbinafrina", definition: "inibe síntese ergosterol; + rápido (ESCOLHA)" },
+    { content: "Cetoconazol e Miconazol", definition: "inibem síntese ergosterol (inozólicos)" },
+    { content: "Fluxonazol", definition: "inibe síntese ergosterol (triozólico)" },
+    { content: "Azólicos têm menos efeitos colaterais, porque...", definition: "+ afinidade com a C14-a-demetilase" },
 ];
 

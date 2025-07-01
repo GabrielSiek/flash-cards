@@ -63,7 +63,7 @@ export const cards: Card[] = [
     { content: "Tetraciclinas (tetra, doxi, mino, tigeciclina)", definition: "ligam-se subunidade 30s ribossomo (N/V, FOTOSSENSIBILIDADE, ESOFAGITE; Gram+ | Gram- | atípicos | zoonoses | acne" },
     { content: "Macrolídeos (eritro, azitro, claritro e roxitromicina)", definition: "ligam-se subunidade 50s; Gram+ | atípicos (Mycoplasma, Chlamydia) | respiratórios" },
     { content: "Cloranfenicol", definition: "liga-se subunidade 50s (SÍNDROME BB CINZENTO)" },
-    { content: "Oxazolidinona (linezolida)", definition: "liga-se subunidade 50s (G+ MULTIRRESISTENTES, SUPRE MO, ESCURECE DENTES); Gram+ resistentes | MRSA | VRE" },
+    { content: "Oxazolidinona (linezolida)", definition: "liga-se subunidade 50s (SUPRE MO, ESCURECE DENTES); Gram+ resistentes | MRSA | VRE" },
     { content: "Lincosamida (clindamicina)", definition: "liga-se subunidade 50s (COLITE PSEUDOMEMBRANOSA); Gram+ | anaeróbios | infecções ósseas/pele" },
     { content: "Aminoglicosídeos (genta, amica, tobramicina)", definition: "ligam-se subunidade 30s (OTO E NEFROTOXICIDADE); Gram- aeróbios | Pseudomonas | sinergia com beta-lactâmicos" },
     { content: "Sulfonamidas (sulfa. prata, sulfadiazina, sulfometoxazol)", definition: "inibem produção ácido fólico (ANTA COMP PABA, OTO/NEFROTOX, STEVEN-JOHNSON); Gram+ | Gram-[] | UTIs | MRSA comunitário" },

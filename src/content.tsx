@@ -12,7 +12,7 @@ export const emptyCard: Card = {
 
 export const cards: Card[] = [
     // Antidepressivos
-    { content: "ISRS", definition: "citalopra, escitalopram, fluoxetina, fluvoxamina, paroxetina e setralina" },
+    { content: "ISRS", definition: "citalopran, escitalopram, fluoxetina, fluvoxamina, paroxetina e setralina" },
     { content: "IRSN", definition: "desvenlafaxina, duloxetina, levo e milnacipran, venlafaxina" },
     { content: "Moduladores serotonina", definition: "nefazedona e trazodona" },
     { content: "ADTs", definition: "amitriptilina, clomipramina (EF. ANTICOLINÉRGICOS, DOR CRÔNICA)" },
@@ -74,7 +74,7 @@ export const cards: Card[] = [
 
     // Anti-histamínicos
     { content: "Anti-H1 clássicos (difenidramina, hidroxizina, meclizina, dimenidrato)", definition: "movimento, enjoo, vômito - causam sedação" },
-    { content: "Anti-H1 periféricos (desloratadina, acrivastatina, cetirizina", definition: "não-sedativos" },
+    { content: "Anti-H1 periféricos (desloratadina, acrivastatina, cetirizina)", definition: "não-sedativos" },
     { content: "Anti-H1: dimenidrato + doxilamina", definition: "GRÁVIDAS" },
 
     // Antiácidos e mucroprotetores
